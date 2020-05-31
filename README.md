@@ -1,4 +1,4 @@
-# natukaka-chatbot
+# Natukaka-chatbot
 
 Chatbot is created using two approaches:
   1. Natural language toolkit(nltk)
