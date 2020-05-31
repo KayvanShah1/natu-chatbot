@@ -6,8 +6,8 @@
 
 Find the python notebooks related to the above approaches in the respective directories.
 
-The ipython-notebooks were made on kaggle whose links are given below:
-  [1] https://www.kaggle.com/kayvanshah/chatbot-using-nltk
+The ipython-notebooks were made on kaggle whose links are given below:\n
+  [1] https://www.kaggle.com/kayvanshah/chatbot-using-nltk \n
   [2] https://www.kaggle.com/kayvanshah/chatbot-with-intent-classification
   
 Or directly pull the kernels using the API commands below:
