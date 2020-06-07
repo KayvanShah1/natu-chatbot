@@ -11,6 +11,8 @@ The ipython-notebooks were made on kaggle whose links are given below:
   2. https://www.kaggle.com/kayvanshah/chatbot-with-intent-classification
   
 Or directly pull the kernels using the API commands below:
-  1. kaggle kernels pull kayvanshah/chatbot-using-nltk
-  2. kaggle kernels pull kayvanshah/chatbot-with-intent-classification
+```
+kaggle kernels pull kayvanshah/chatbot-using-nltk
+kaggle kernels pull kayvanshah/chatbot-with-intent-classification
+```
   
