@@ -5,6 +5,7 @@
   2. Intent classification
 
 **Find the python notebooks and scripts related to the above approaches in the respective directories.**
+
 *NOTE: Change the paths in scripts accordingly*
 
 ### Links to view the notebooks
