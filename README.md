@@ -8,7 +8,7 @@
 
 *NOTE: Change the paths in scripts accordingly*
 
-### Links to view the notebooks
+### Links to the notebooks:
 The ipython-notebooks were made on kaggle whose links are given below:
   1. https://www.kaggle.com/kayvanshah/chatbot-using-nltk 
   2. https://www.kaggle.com/kayvanshah/chatbot-with-intent-classification
