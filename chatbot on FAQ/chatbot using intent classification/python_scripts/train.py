@@ -13,6 +13,14 @@ from tensorflow.keras.models import Sequential,Model
 from python_scripts.helper_functions import *
 
 
+# Reading data
+data_path = '/kaggle/input/cloud-counselage-qa-data/'
+data_json = 'intents2.json'
+
+with open(data_path+data_json) as json_data:
+    intents_dict = json.load(json_data)
+
+    
 # Data Preparation
 qa_data = []    
 for intent in intents_dict['intents']:
