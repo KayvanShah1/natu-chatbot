@@ -105,4 +105,4 @@ history = model.fit(np.array(train_x),np.array(train_y),epochs=EPOCHS)
 
 
 # Saving the model
-model.save('./chatbot-with-intent-classification/model/chatbot8')
+model.save('/kaggle/working/chatbot8')
