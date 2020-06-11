@@ -1,0 +1,81 @@
+df-messenger {
+   --df-messenger-bot-message: #df9b56;
+
+   --df-messenger-button-titlebar-color: #121281;
+   --df-messenger-button-titlebar-font-color: white;
+
+   --df-messenger-font-color: white;
+   --df-messenger-user-message: #121281;
+
+   --df-messenger-chat-background-color: ghostwhite;
+   --df-messenger-input-box-color: ghostwhite;
+   --df-messenger-input-font-color: black;
+
+   --df-messenger-send-icon: silver;
+   --df-messenger-minimized-chat-close-icon-color: grey;
+   --df-messenger-input-placeholder-font-color: #333333;
+
+}
+#closeSvg{
+    color: white;
+}
+
+.modal-header{
+    background-color: black;
+    color:white;
+}
+
+.modal-footer{
+    background-color:#e6e6ff;
+}
+
+.modal-content{
+    background-color:rgba(0,0,0,0) !important;
+}
+
+#closing{
+    color: yellow;
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/businessman-holding-chatbot-with-binary-code-message-data_110893-1070.jpg?size=626&ext=jpg);
+    background-size: cover;
+}
+
+/*.navbar-dark .bg-dark {*/
+/*    background-color: rgba(0,0,0,0.4) !important;*/
+/*}*/
+
+.bg-dark {
+    background-color: rgba(0,0,0,0.59) !important;
+}
+
+section{
+    padding: 0 100px;
+    height: 100vh;
+    width: 130vh;
+    display: flex;
+    align-items: center;
+}
+
+.welcome{
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(255,255,255,0.2);
+}
+
+.nav-link a{
+    transition: all ease 0.45s;
+    display: inline-block;
+}
+
+.nav-link a:hover{
+    background-color: #211b4385;
+}
+
+
+
