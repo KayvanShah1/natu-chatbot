@@ -11,3 +11,5 @@ unicodedata
 json
 os
 re
+
+django==3.0.0
