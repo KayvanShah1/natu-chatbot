@@ -36,7 +36,8 @@ tags = sorted(list(tags))
 
 
 # loading the saved model
-model = tf.keras.models.load_model('/model/chatbot8')
+model_path = '/kaggle/input/chatbot-with-intent-classification/chatbot8/'
+model = tf.keras.models.load_model(model_path)
 
 
 # Defining functions to predict
