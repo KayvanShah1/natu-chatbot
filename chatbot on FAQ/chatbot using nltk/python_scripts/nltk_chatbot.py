@@ -42,7 +42,11 @@ def predict_answer(text):
     text = word_vectorizer.transform([text]).toarray()
 
     cosine_similarity=1-pairwise_distances(faq_data_features,text,metric='cosine')
-    output = data['response_text'].loc[cosine_similarity.argmax()]
+    if max(cosine_similarity) >= 0.20:
+        output = data['response_text'].loc[cosine_similarity.argmax()]
+    else:
+        not_known_statements = ['Once again','Try once more','Say once again','Try another way','I did not understand','I did not get that']
+        output = random.choice(not_known_statements)
     
     return output
 
