@@ -75,12 +75,18 @@ def predict_response(sentence, show_details=False):
     results = classify(sentence)
     if show_details:
             print('Tag: ',results[0][0])
+
     if results:
         while results:
             for i in intents_dict['intents']:
                 if i['tag'] == results[0][0]:
                     response = random.choice(i['responses'])
                     return response
+
+    else:
+        not_known_statements = ['Once again','Try once more','Say once again','Try another way','I did not understand','I did not get that']
+        response = random.choice(not_known_statements)
+        return response
                 
 
 # For interaction with chatbot
