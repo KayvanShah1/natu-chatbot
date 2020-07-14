@@ -22,4 +22,4 @@ kaggle kernels pull kayvanshah/chatbot-with-intent-classification
 ## See the chatbot deployed at the link below:
 ![](https://github.com/KayvanShah1/natu-chatbot/blob/master/sample-image/bgss%20(2).png)
 
-**[CLICK HERE](https://www.chatagent.pythonanywhere.com/)** to visit the site
+**[CLICK HERE](https://www.chatagent.pythonanywhere.com/homepage)** to visit the site.
