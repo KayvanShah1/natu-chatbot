@@ -1,4 +1,4 @@
-# **NATU-CHAT_AGENT**
+# **NATU-CHAT AGENT**
 
 ## Approaches used:
   1. Natural language toolkit(nltk)
