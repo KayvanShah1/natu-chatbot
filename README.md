@@ -24,7 +24,7 @@ kaggle kernels pull kayvanshah/chatbot-with-intent-classification
 
 **[CLICK HERE](https://www.chatagent.pythonanywhere.com/homepage)** to visit the website.
 
-If the link doesn't work and the page page shows "Connection is not private..." error then click the url below or copy and paste the url in new tab to visit the website.
-
+If the link doesn't work and the page page shows "Connection is not private..." error then copy and paste the url below in a new tab to visit the website.
+```
 https://www.chatagent.pythonanywhere.com/
-
+```
